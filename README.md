@@ -32,7 +32,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 ## Pre-requisites
 
-* [IBM Cloud account](https://www.ibm.com/cloud/): Create an IBM Cloud account.
+* [IBM Cloud account](http://ibm.biz/order-online): Create an IBM Cloud account.
 
 # Steps
 
