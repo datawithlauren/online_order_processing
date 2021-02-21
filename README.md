@@ -36,7 +36,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 * [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started): Download the IBM Cloud CLI
 
 ## Slides
-* [Presentation] (https://www.slideshare.net/AnamMahmood10/use-watson-assistant-to-automate-online-order-processing-during-a-pandemic-17th-feb)
+* [Presentation](https://www.slideshare.net/AnamMahmood10/use-watson-assistant-to-automate-online-order-processing-during-a-pandemic-17th-feb)
 
 # Steps
 
