@@ -35,6 +35,9 @@ When the reader has completed this Code Pattern, they will understand how to:
 * [IBM Cloud account](http://ibm.biz/order-online): Create an IBM Cloud account.
 * [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started): Download the IBM Cloud CLI
 
+## Slides
+* [Presentation] (https://www.slideshare.net/AnamMahmood10/use-watson-assistant-to-automate-online-order-processing-during-a-pandemic-17th-feb)
+
 # Steps
 
 Please follow the below to setup and run this code pattern.
