@@ -1,5 +1,5 @@
 ---
 applications:
- - name: covid-19-help-desk
+ - name: EUGENE-Egrocer
    random-route: true
    memory: 256M
