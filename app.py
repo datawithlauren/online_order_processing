@@ -47,9 +47,10 @@ except:
 #########################
 table = ' CREATE TABLE ORDERS( \
     ID int,NAME varchar(255), \
-    PHONE varchar(255), \
+    CONTACT_NUMBER varchar(255), \
+    EMAIL_ADDRESS varchar(255), \
     ORDERS varchar(255), \
-    ADDRESS varchar(255)	); ' 
+    DELIVERY_ADDRESS varchar(255)	); ' 
 try:
     ibm_db.exec_immediate(conn, table)
 except:
@@ -97,6 +98,7 @@ def destroySession():
 
 # assistant.delete_session(skillid, "<YOUR SESSION ID>").get_result()
 
+
 @app.route('/getWatsonAssistantResponse', methods=['GET', 'POST'])
 def test():
     msg = request.args['msg']
@@ -124,6 +126,11 @@ def test():
     # print(msg)
     # print(json.dumps(message, indent=2))
     return jsonify(payload)
+
+
+#########################
+# Getting location of user using 'known location'
+#########################
 
 
 @app.route("/getlocation", methods=["GET"])
