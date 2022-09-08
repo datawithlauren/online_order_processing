@@ -18,6 +18,9 @@ url = ''
 assistantid = ''
 sessionid = ''
 
+#########################
+# IBM DB2 Database connection
+#########################
 
 with open('ibm-db2-credentials.json', 'r') as credentialsFile:
     credentials1 = json.loads(credentialsFile.read())
